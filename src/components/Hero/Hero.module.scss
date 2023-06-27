@@ -1,0 +1,120 @@
+@import "../../styles/constants.scss";
+
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .left {
+      .upperElements {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 2.5rem;
+        font-weight: 500;
+      }
+
+      .middleElements {
+        margin-top: 5rem;
+
+        h1 {
+          font-size: 2.5rem;
+          font-weight: 500;
+
+          .textline {
+            color: rgb(254, 127, 0);
+            font-weight: 600;
+          }
+        }
+
+        p {
+          margin-top: 0.5rem;
+          max-width: 46rem;
+          font-size: 1.25rem;
+        }
+
+        .social {
+          margin: 3rem 1.5rem 3rem 0;
+          font-size: 3rem;
+          display: inline-flex;
+          border-radius: 50%;
+          background: transparent;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          gap: 2.5rem;
+
+          a {
+            color: rgb(254, 127, 0);
+
+            &:hover {
+              color: #0d2f3f;
+            }
+          }
+        }
+
+        @media (max-width: $sm), (max-width: $md) {
+          h1 {
+            font-size: 20px;
+            font-weight: 700;
+          }
+          span {
+            font-size: 20px;
+            font-weight: 900;
+          }
+          p {
+            font-size: 16px !important;
+          }
+        }
+      }
+
+      .lowerElements {
+        margin-top: -1rem;
+
+        a{
+          color: #0d2f3f;
+        }
+
+        .downloadbtn {
+          padding: 0.75rem 2.3rem;
+          background: rgb(254, 127, 0);
+          border: 1px solid rgb(254, 127, 0);
+          border-radius: 0.45rem;
+          font-size: 1rem;
+          font-weight: 500;
+
+          &:hover {
+            background: #f8f7f1;
+            color: rgb(254, 127, 0);
+            border: 2px solid rgb(254, 127, 0);
+          }
+        }
+      }
+    }
+
+    .right {
+      .person {
+        background-image: url("./Images/splash.png");
+        background-repeat: no-repeat;
+        background-size: 25rem;
+        background-position: -50% 60%;
+        margin-top: 4%;
+
+        @media (max-width: $sm), (max-width: $md) {
+          position: static;
+          margin-left: -5.7%;
+          background-size: 26rem;
+        }
+      }
+    }
+  }
+}
