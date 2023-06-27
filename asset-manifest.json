@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/arish-portfolio.git/static/css/main.ec76b4d0.css",
+    "main.js": "/arish-portfolio.git/static/js/main.8995afdc.js",
+    "static/js/787.f6e65957.chunk.js": "/arish-portfolio.git/static/js/787.f6e65957.chunk.js",
+    "static/media/project2.png": "/arish-portfolio.git/static/media/project2.eb31dc29ece35c583bec.png",
+    "static/media/project5.png": "/arish-portfolio.git/static/media/project5.25d2aa79bb8406579ac0.png",
+    "static/media/project6.png": "/arish-portfolio.git/static/media/project6.e05c04e7a54c73d45a61.png",
+    "static/media/project31.png": "/arish-portfolio.git/static/media/project31.5ef9ddac73e92bb1b285.png",
+    "static/media/project8.png": "/arish-portfolio.git/static/media/project8.51c545415881c68eb532.png",
+    "static/media/arish.png": "/arish-portfolio.git/static/media/arish.df1d999506c1e5985b5a.png",
+    "static/media/splash.png": "/arish-portfolio.git/static/media/splash.0f09aad1bb7abe9747fe.png",
+    "static/media/Aarish.pdf": "/arish-portfolio.git/static/media/Aarish.e0c117f2a91fe9cf36ac.pdf",
+    "static/media/keni.jpeg": "/arish-portfolio.git/static/media/keni.db52299d3c34cc0ce1c1.jpeg",
+    "static/media/sujay.jpeg": "/arish-portfolio.git/static/media/sujay.a4535089ecb8b8e2de64.jpeg",
+    "static/media/project1.png": "/arish-portfolio.git/static/media/project1.b974bbfdc00a5a3b7e95.png",
+    "static/media/kumar.jpeg": "/arish-portfolio.git/static/media/kumar.83ddd75c8648b5efbdb7.jpeg",
+    "static/media/kashif.jpeg": "/arish-portfolio.git/static/media/kashif.70a540c916d8f45b0e1c.jpeg",
+    "static/media/sami.jpeg": "/arish-portfolio.git/static/media/sami.6df1381f373f08a35322.jpeg",
+    "index.html": "/arish-portfolio.git/index.html",
+    "main.ec76b4d0.css.map": "/arish-portfolio.git/static/css/main.ec76b4d0.css.map",
+    "main.8995afdc.js.map": "/arish-portfolio.git/static/js/main.8995afdc.js.map",
+    "787.f6e65957.chunk.js.map": "/arish-portfolio.git/static/js/787.f6e65957.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec76b4d0.css",
+    "static/js/main.8995afdc.js"
+  ]
+}
