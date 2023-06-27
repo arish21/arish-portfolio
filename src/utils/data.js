@@ -50,7 +50,7 @@ export const comments = [
     post: "Full Stack Developer",
     comment:
       "Working with Arish has been an absolute pleasure. His expertise in web development and software engineering is unparalleled. He has a keen eye for detail and a strong ability to turn complex concepts into user-friendly solutions. I highly recommend Arish for any web development project.",
-    img: "/people/keni.jpeg",
+    img: "/people/ashu.jpeg",
   },
   {
     name: "Aditya Kumar Iyer",
