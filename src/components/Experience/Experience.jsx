@@ -24,7 +24,9 @@ const Experience = () => {
 
       <div className={`innerWidth flexCenter ${css.container}`}>
         {/* heading */}
-        <span className="primaryText yPaddings">My Work and Education Timeline</span>
+        <span className="primaryText yPaddings">
+          My Work and Education Timeline
+        </span>
 
         <div className={`flexCenter ${css.experiences}`}>
           {workExp.map((exp, i) => {
@@ -60,19 +62,19 @@ const Experience = () => {
             <div>
               <div
                 className={css.circle}
-                style={{ background: "#F2704E", marginTop: "4rem" }}
+                style={{ background: "#F2704E", marginTop: "6rem" }}
               ></div>
             </div>
             <div>
               <div
                 className={css.circle}
-                style={{ background: "#F2704E", marginTop: "-1.7rem" }}
+                style={{ background: "#F2704E", marginTop: "0.55rem" }}
               ></div>
             </div>
             <div>
               <div
                 className={css.circle}
-                style={{ background: "#F2704E", marginTop: "4.8rem" }}
+                style={{ background: "#F2704E", marginTop: "4.7rem" }}
               ></div>
             </div>
           </motion.div>

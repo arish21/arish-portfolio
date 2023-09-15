@@ -10,7 +10,6 @@ import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../../utils/motion";
 
 const Hero = () => {
-  
   return (
     <section className={`paddings ${css.wrapper}`}>
       <motion.div
@@ -50,13 +49,13 @@ const Hero = () => {
               </span>
             </h1>
             <p>
-              Experienced web developer with expertise in HTML, CSS, JavaScript,
-              and React. Passionate about expanding knowledge and staying
-              updated with the latest advancements in web development. Seeking a
-              company that values skill development and emphasizes understanding
-              the business model. Believes in comprehending the bigger picture
-              to effectively contribute towards solving company challenges and
-              providing impactful solutions.
+              Adaptable web developer proficient in HTML, CSS, JavaScript,
+              React, Java, and Python, with a proven track record of staying
+              current with web development trends. Eager to join a
+              forward-thinking company that emphasizes skill development, values
+              understanding the business model, and appreciates the bigger
+              picture. Committed to fostering teamwork, comprehending complex
+              challenges, and delivering impactful solutions.
             </p>
             <div className={`${css.social}`}>
               <a href="https://github.com/arish21">
@@ -71,9 +70,9 @@ const Hero = () => {
             variants={fadeIn("right", "tween", 1, 1)}
             className={`${css.lowerElements}`}
           >
-            <a className={`${css.downloadbtn}`} href={Pdf} target="_blank">
+            {/* <a className={`${css.downloadbtn}`} href={Pdf} target="_blank">
               Download Resume
-            </a>
+            </a> */}
           </motion.div>
         </div>
         {/* Person Image */}

@@ -33,7 +33,9 @@ const Portfolio = () => {
         >
           <div>
             <span className="primaryText flexCenter">My Latest Projects</span>
-            <span className={`secondaryText yPaddings innerWidth flexCenter ${css.hellotext}`}>
+            <span
+              className={`secondaryText yPaddings innerWidth flexCenter ${css.hellotext}`}
+            >
               Extensively leveraging technologies like React, JavaScript, SCSS,
               Node.js, MongoDB, and AWS services, these projects were
               meticulously crafted.
